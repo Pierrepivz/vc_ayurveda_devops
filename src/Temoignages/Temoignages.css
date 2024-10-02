@@ -1,0 +1,57 @@
+.Temoignages{
+    background: url("../images/fond_or.png");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.temoignages_text{
+    
+    display: flex;
+    flex-direction: row;
+    background: blue;
+    box-sizing: content-box;
+    width: 70vw;
+    height: 10vh;
+    overflow: hidden;
+    
+}
+.temoignages_text text{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    background: black;
+}
+.temoignages_info{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+
+}
+.nom_client{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Temoignages .underline{
+    height: 2px;
+    background: white;
+    width: 30vw;
+    margin-top: 2vh;
+
+}
+.Temoignages h1{
+    color: white;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,54 @@
+
+
+
+.presentation{
+    box-sizing: border-box;
+    background: url("../images/paysage_group1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    justify-content: space-around;
+
+    
+}
+.vca{
+    width: 48vw;
+    height: 17%;
+    font-size: 1em;
+    background-color:black;
+    margin-bottom: -13vh;
+}
+
+.presentation_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    
+
+}
+
+.presentation_text p{
+    font-style: italic;
+
+}
+
+underline_text{
+    width: 20vw;
+    height: 2px;
+    background: white;
+    border-radius: 100px;
+}
+.logo{
+    position: absolute;
+    background: url("../images/logo.png");
+    height: 253px;
+    width: 247px;
+    top: 83vh
+
+
+}
+
+

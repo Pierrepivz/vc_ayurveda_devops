@@ -1,0 +1,89 @@
+.Parcours{
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+}
+#parcours_photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+
+}
+#parcours_text{
+    margin-top: -4vh;
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+    
+    
+    
+}
+#parcours_text h1{
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+#parcours_text text{
+    box-shadow: -2px 1px 1px rgba(0, 0, 0, 0.205);
+    padding: 1vw;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: height 2s;
+
+}
+#parcours_text button{
+    color: white;
+    margin-top: 10%;
+    border-radius: 100%;
+    border-width: 0px;
+    background-color: #383838;
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    transition: display 2s;
+    
+}
+
+
+.photo_vca{
+    height: 22vw;
+    width: 22vw;
+    background: url("../images/profil_image.svg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    margin-top: 5vh;
+    
+}
+.Parcours .underline{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.display_none{
+    display: none;
+}
+.bigger{
+   height: 67vh;
+   transition: ease-in;
+    
+}
+.smaller{
+    height: 36vh;
+    transition: ease-in;
+}

@@ -1,0 +1,88 @@
+.ayurveda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 7vh;
+    box-sizing: border-box;
+}
+.ayurveda_2{
+    width: 60%;
+   
+    margin-top: -8%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.ayurveda_3{
+    width: 70%;
+    margin-top: -4%;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.ayurveda_5{
+    width: 50%;
+    margin-top: -3vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.square{
+    height: 2.5vh;
+    width: 2.5vh;
+    background: green;
+    margin-right: 3vw;
+    transform: rotate(45deg);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.493);
+    box-sizing: border-box;
+
+}
+.Vision_ayurveda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: -5%;
+    margin-left: -3vw;
+}
+.Vision_ayurveda ul{
+    
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    width: 150%;
+    
+    
+}
+.Vision_ayurveda ul text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 5vh;
+    
+    
+    
+}
+.Vision_ayurveda ul text underline{
+    
+    width: 100%;
+    height: 2px;
+    margin-left: 1vw;
+    margin-top: 10px;
+    
+    
+}
+
+.Vision_ayurveda ul:nth-child(1) .square, .Vision_ayurveda ul:nth-child(1) text underline{
+    background: #69A863;
+}
+.Vision_ayurveda ul:nth-child(2) .square, .Vision_ayurveda ul:nth-child(2) text underline{
+    background: #25741E;
+}
+.Vision_ayurveda ul:nth-child(3) .square, .Vision_ayurveda ul:nth-child(3) text underline{
+    background: #175012;
+}
+

@@ -1,0 +1,60 @@
+.Offre{
+    padding-top: 1vw;
+    background: url("../images/fond_or.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Offre :first-child{
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+
+}
+
+.Offre underline{
+    width: 70%;
+    height: 2px;
+}
+
+.detail_offre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+
+}
+.detail_offre h1{
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.808);
+
+}
+.detail_offre underline{
+    width: 70%;
+    height: 2px;
+}
+.detail_offre *{
+    margin-bottom: 1vw;
+
+}
+.detail_offre text{
+    font-size: 16px;
+    width: 73%;
+    letter-spacing: 1;
+    text-align: center;
+
+}
+.cercle_logo{
+    width: 7.5vw;
+    height: 7.5vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 100%;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.301);
+    
+}
+.cercle_logo:nth-of-type(1) {
+    background: #69A863;
+}
+
