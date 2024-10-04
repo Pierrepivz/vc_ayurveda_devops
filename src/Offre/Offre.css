@@ -58,3 +58,32 @@
     background: #69A863;
 }
 
+@media screen and (max-width:640px) and (min-width:200px){
+
+.detail_offre h1{
+    font-size: 17px;
+}
+
+
+.cercle_logo{
+    width: 20vw;
+    height: 20vw;
+}
+
+.detail_offre text{
+    font-size: 12px;
+    width: 85%;
+}
+
+.detail_offre{
+    margin-top: 15vw;
+}
+.detail_offre underline{
+    margin-bottom: 5vw;
+}
+.Offre{
+    padding-top: 10vw;
+    
+}
+
+}

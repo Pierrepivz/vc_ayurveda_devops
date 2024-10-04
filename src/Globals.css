@@ -57,3 +57,35 @@ button{
     box-sizing: border-box;
     pointer-events: fill;
 }
+
+
+
+@media screen and (max-width:640px) and (min-width:200px){
+
+    text{
+        
+        font-size: 10px;
+        
+    }
+
+    h1{
+        
+        font-size: 20px;
+        letter-spacing: 1.6px;
+        
+    }
+
+    .nav-bar p{
+
+        
+        font-size: 11px;
+        
+    
+    }
+    .presentation_text p{
+        font-size: 15px;
+        
+    }
+
+
+}

@@ -86,3 +86,24 @@
     background: #175012;
 }
 
+@media screen and (max-width:640px) and (min-width:200px){
+.ayurveda{
+    padding-top: 0;
+}
+
+    .Vision_ayurveda{
+        margin-left: -100px;
+    }
+    .Vision_ayurveda ul{
+        width: 150%;
+
+    }
+    .ayurveda text{
+
+        width: 90%;
+        margin: 0;
+
+    }
+    
+}
+

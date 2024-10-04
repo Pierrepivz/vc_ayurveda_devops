@@ -38,7 +38,7 @@ export default function Parcours(){
 
 return(
 
-<div class="Parcours block">
+<div class="Parcours">
     <div id="parcours_photo">
         <div class="underline"></div>
         <div class="photo_vca"></div>

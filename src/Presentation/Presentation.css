@@ -51,4 +51,28 @@ underline_text{
 
 }
 
+@media screen and (max-width:640px) and (min-width:200px){
+
+    .vca{
+        width: 70vw;
+        height: 15vw;
+        margin-top: -20vh;
+    }
+
+    .logo{
+        height: 123px;
+        width: 120px;
+        top: 60vh;
+        background-size: contain;
+    }
+    .presentation_text{
+        margin-top: -50vh;
+        text-align: center;
+    }
+
+    
+
+
+}
+
 
