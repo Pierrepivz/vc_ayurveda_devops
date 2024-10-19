@@ -6,7 +6,7 @@ return(
 
 <div class="presentation block">
 
-    <div class="vca"></div>
+    <div class="vca">Victor Clément Ayurveda</div>
 
       <div class="presentation_text">
            <p>Médecine Traditionnelle Ayurvédique</p>

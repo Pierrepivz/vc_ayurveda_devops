@@ -14,11 +14,26 @@
     
 }
 .vca{
-    width: 48vw;
-    height: 17%;
-    font-size: 1em;
-    background-color:black;
+    width: 42vw;
+    height: 16%;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: -1px 2px 1px rgba(0, 0, 0, 0.205);
+    font-size: 30px;
+    font-family: "libre baskerville";
+    letter-spacing: 3px;
+
+    background: url("../images/fond_or.png");
+    color: black;
+    font-weight: bold;
     margin-bottom: -13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .presentation_text{
@@ -54,9 +69,10 @@ underline_text{
 @media screen and (max-width:640px) and (min-width:200px){
 
     .vca{
-        width: 70vw;
-        height: 15vw;
+        width: 75vw;
+        height: 13vw;
         margin-top: -20vh;
+        font-size: 14px;
     }
 
     .logo{

@@ -28,6 +28,14 @@
     border-width: 2px;
     border-color: white;
     letter-spacing: 2.4px;
+    transition: 2s;
+}
+.button_rdv:hover {
+    background: white;
+    color: black;
+    transition: 2s;
+    
+    
 }
 
 .links{
@@ -38,11 +46,34 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
 @media screen and (max-width:640px) and (min-width:200px){
-    .Footer{
-      display: none;
-  
+
+    .button_rdv{
+        width: 75vw;
+        height: 17vw;
+        font-size: 17px;
+        text-decoration: none;
+        
+        
     }
+    
+    
+    
+    .Footer p{
+        font-size: 16px;
+        margin-bottom: 100px;
+    }
+    .links{
+        width: 90vw;
+    }
+    .Footer img{
+
+        width: 10vw;
+        height: 10vw;
+
+    }
+    
     
   }
   
