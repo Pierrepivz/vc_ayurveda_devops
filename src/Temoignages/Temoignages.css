@@ -46,13 +46,15 @@
     height: 2px;
     background: white;
     width: 30vw;
-    margin-top: 2vh;
+    margin-top: -1vh;
 
 }
 .Temoignages h1{
     color: white;
     font-size: 20px;
 }
+
+
 
 
 @media screen and (max-width:640px) and (min-width:200px){

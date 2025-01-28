@@ -20,6 +20,11 @@ body{
   color: white;
 }
 
+.Hoefler{
+  font-family: 'Hoefler';
+  font-size: 40px;
+}
+
 
 
 @keyframes App-logo-spin {

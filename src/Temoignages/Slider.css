@@ -26,7 +26,13 @@
     width: 70vw;
     height: 200px;
     scroll-behavior: smooth;
+    opacity:1;
+    transition: 1s;
   }
+.text-transition{
+  opacity: 0;
+  transition: 1s;
+}
 
 .tem_box{
     position: absolute;
@@ -43,14 +49,36 @@
 
 .tem_box a{
     
-    margin-left: 10px;
-    width: 30px;
-    height: 30px;
+    margin-left: 15px;
+    align-self: center;
+    text-align: center;
+    color: #383838;
     border-radius: 100%;
+    border-width: 0px;
+    background-color: rgb(255, 250, 236);
     border-style: solid;
+    border-color: #383838;
+    border-width: 2px;
+    padding: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
+    transition: display 2s;
+    font-family: "Hoefler";
+    font-size: 16px;
+    transition: 2s;
     
-    background: #383838ab;
+
+}
+.tem_box a:hover{
     
+  
+  
+  color: rgb(255, 250, 236);
+  
+  background-color: #383838;
+  
+  transition: 2s;
+  
 
 }
 
@@ -111,21 +139,23 @@
 
 .tem_box a{
     
-  margin-left: 7px;
-  width: 23px;
-  height: 23px;
-  border-radius: 100%;
-  border-style: solid;
   
-  background: #383838ab;
+  
+  border-radius: 100%;
+  
+ 
+  
+  padding: 10px;
+  font-size: 11px;
+  text-align: center;
   
 
 }
 
 .slider-content .text {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.8px;
-  line-height: 13px;
+  line-height: 15px;
 }
     
     

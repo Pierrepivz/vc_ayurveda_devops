@@ -1,5 +1,7 @@
 import "./Ayurveda.css";
 import Vision_ayurveda from "./Vision_ayurveda.js";
+
+
 export default function Ayurveda(){
 
 
