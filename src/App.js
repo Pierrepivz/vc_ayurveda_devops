@@ -8,6 +8,7 @@ import Offre from "./Offre/Offre.js";
 import Parcours from "./Parcours/Parcours.js";
 import Temoignages from "./Temoignages/Temoignages.js";
 import Footer from "./Footer/Footer.js";
+import Retraite from "./Retraite/Retraite.js";
 
 function App() {
   return (

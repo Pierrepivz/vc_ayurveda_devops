@@ -3,7 +3,8 @@
 
 .presentation{
     box-sizing: border-box;
-    background: url("../images/paysage_group1.png");
+    background: url("../images/background_retraite.jpeg");
+    background-position-Y: -50px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -35,15 +36,48 @@ underline_text{
 .logo{
     
     background: url("../images/victor_clement.svg");
-    height: 390px;
-    width: 390px;
+    /*height: 390px;
+    width: 390px;*/
     background-size: cover;
     margin-top: -50px;
-    
+    height: 280px;
+    width: 280px;
     top: 83vh;
+    z-index: 0;
     
 
 
+}
+.retraite_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "libre baskerville";
+    box-shadow: black 0px 2px 3px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.829) 50%, rgba(255, 255, 255, 0));
+    padding: 20px;
+    z-index: 1;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.retraite_text strong{
+    letter-spacing: 8px;
+}
+.retraite_text p{
+    font-size: 15px;
+    line-height: 25px;
+}
+#button_retraite{
+    width: 200px;
+    font-size: 15px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width:640px) and (min-width:200px){
@@ -64,6 +98,7 @@ underline_text{
     .presentation_text{
         margin-top: -50vh;
         text-align: center;
+        
     }
 
     

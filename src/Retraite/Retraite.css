@@ -1,0 +1,30 @@
+.Retraite{
+
+    box-sizing: border-box;
+    background: url("../images/paysage_group1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+
+    
+}
+.container_affiche{
+
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+background: white;
+
+
+    
+    
+    
+
+}
