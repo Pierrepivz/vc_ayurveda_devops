@@ -14,11 +14,10 @@ return(
 <div class="retraite_block">
  <div class="retraite_text">
  <div class="logo"></div>
- <strong>RETRAITE YOGA & AYURVEDA</strong> <br/>
+ <strong>Retraite Yoga & Ayurveda dans la Drôme</strong> <br/>
 <italic>du 5 au 11 avril</italic><br/>
-<p>Le printemps est la saison du renouveau - un moment idéal pour faire peau neuve<br/>
-Le lieu : l'Arche des 3 Becs dans la Drôme - un havre de paix perché à 800m d'altitude <br/>
-Au programme : repos de l'esprit et détoxification du corps - méditation, yoga, ayurvéda et régime alimentaire revitalisant</p></div>
+<p>Au programme : repos, détoxification du corps, méditation, nourriture revitalisante,<br/> eau de source, sauna et ballades dans la région.
+  Pour apprendre en intelligence de nouvelles habitudes de vie.</p></div>
 <div class="row">
  <button class="button_rdv" id="button_retraite">Je suis intérressé.e</button>
  <button class="button_rdv" id="button_retraite">En savoir plus</button></div>

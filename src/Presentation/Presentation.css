@@ -58,7 +58,7 @@ underline_text{
     box-shadow: black 0px 2px 3px;
     border-radius: 5px;
     color: white;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.829) 50%, rgba(255, 255, 255, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.829) 0%, rgba(255, 255, 255, 0));
     padding: 20px;
     z-index: 1;
     text-align: center;
@@ -81,6 +81,14 @@ underline_text{
 }
 
 @media screen and (max-width:640px) and (min-width:200px){
+
+    #button_retraite{
+        width: 170px;
+        height: 60px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
 
     .vca{
         width: 75vw;
