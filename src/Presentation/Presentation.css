@@ -58,7 +58,7 @@ underline_text{
     box-shadow: black 0px 2px 3px;
     border-radius: 5px;
     color: white;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.829) 0%, rgba(255, 255, 255, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.829) 25%, rgba(255, 255, 255, 0));
     padding: 20px;
     z-index: 1;
     text-align: center;
@@ -68,11 +68,18 @@ underline_text{
     justify-content: space-around;
 }
 .retraite_text strong{
-    letter-spacing: 8px;
+    letter-spacing: 6.5px;
+    
+    font-size: 27px;
 }
 .retraite_text p{
     font-size: 15px;
     line-height: 25px;
+    font-family: "avenir next";
+}
+.retraite_text italic{
+    font-family: "avenir next";
+    font-size: 17px;
 }
 #button_retraite{
     width: 200px;
