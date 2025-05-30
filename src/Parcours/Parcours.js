@@ -1,4 +1,3 @@
-
 import "./Parcours.css";
 
 
@@ -11,25 +10,7 @@ export default function Parcours(){
     function text_display(){
         
         var button_plus = document.querySelector('.button_plus');
-        /*var button_moins = document.querySelector('.button_moins');
-        var parcours_text = document.querySelector('#parcours_text text');
-
-        if(button_moins.classList.contains("display_none")){
-
-
-        button_plus.classList.add("display_none");
-        button_moins.classList.remove("display_none");
-        parcours_text.classList.remove("smaller");
-        parcours_text.classList.add("bigger");
-    
-    }else{
-
-        button_moins.classList.add("display_none");
-        button_plus.classList.remove("display_none");
-        parcours_text.classList.add("smaller");
-        parcours_text.classList.remove("bigger");
-
-    }*/
+        
    
 
 
@@ -76,7 +57,7 @@ de méditation.
 
 
 <br/><br/>
-<div class="second_text display_none">
+
 Après avoir développé puis établi une certaine stabilité mentale en mon for
 intérieur, j’ai eu à cœur de comprendre les mécanismes du corps et de la santé.
 Cela m’a peu à peu emmené vers l’Ayurvéda, que j’étudie depuis 8 ans
@@ -88,9 +69,9 @@ Quelques années plus tard, j’ai rejoint le Dr Vasant Lad, un docteur indien
 réputé mondialement, pour apprendre sous son aile pendant 2 années complètes
 
 d’études intenses et poussées.
-</div>
 
-<button class="button button_plus" onClick={text_display}>↓</button>
+
+<div class="read_more"> <h2>+</h2></div>
 
 </text>
 </div>
@@ -100,10 +81,4 @@ d’études intenses et poussées.
 
 
 );
-
-
-
-
-
-
 }

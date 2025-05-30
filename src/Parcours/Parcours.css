@@ -20,23 +20,50 @@
 #parcours_text{
     margin-top: -4vh;
     width: 39vw;
-    min-width: auto;
+    height:70vh;
+    overflow: hidden;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    transition: ease-in 1s;
+    transition:2s;
+    
    
 }
-#parcours_text{
-    transition: 2s;
+#parcours_text:hover{
+    
+    width:100vw;
+    transition:2s;
+    animation: fadein 2s linear;
 }
+
+#parcours_text:hover .read_more{
+    opacity:0;
+    width:60vw;
+    transition:2s;
+}
+@keyframes fadein{
+    0%{
+        opacity:1
+    }
+    20%{
+        opacity:0;
+    }
+    80%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 #parcours_text h1{
     padding-top: 0;
     margin-top: 0;
     
 }
 #parcours_text text{
-    box-shadow: -2px 1px 1px rgba(0, 0, 0, 0.205);
+    
     padding: 1vw;
     border-radius: 2%;
     display: flex;
@@ -45,6 +72,21 @@
     height: auto;
 
 }
+.read_more{
+
+    position: absolute;
+    width:39vw;
+    height:20vh;
+    margin-top:35vh;
+    background:linear-gradient(transparent 0%,#FFFDF2 40%);
+    color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition:3s;
+}
+
 #parcours_text button{
     align-self: center;
     color: #383838;

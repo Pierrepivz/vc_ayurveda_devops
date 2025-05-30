@@ -7,9 +7,7 @@ body{
   padding:0;
   scroll-behavior: smooth;
 }
-body *{
-  opacity:0;
-}
+
 
 
 .App-header {

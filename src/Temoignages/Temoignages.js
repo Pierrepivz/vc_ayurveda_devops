@@ -1,12 +1,14 @@
 import "./Temoignages.css";
 import Slider from "./Slider.js";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Temoignages() {
 
     const [name,setName] = useState("Anna");
     const [num_temoignage,setTem] = useState("t_1");
     const [id_tem,Setid] = useState(1);
+
+    
 
     
 
@@ -18,7 +20,7 @@ export default function Temoignages() {
         setTem(value);
         setName(name);
         console.log(num_temoignage);
-
+ 
         setTimeout(()=> {
 
             content.classList.remove("text-transition");
@@ -28,7 +30,7 @@ export default function Temoignages() {
     }  
 
     
-
+/*
     const button_manager = async (value,id) => {
 
         var content = document.querySelector('.slider-content');
@@ -63,10 +65,12 @@ export default function Temoignages() {
         }
 
 
-        
+      
 
 
-    }
+    } */ 
+    
+    
 
 
     function setT(value){
@@ -107,6 +111,23 @@ export default function Temoignages() {
 
 
     };
+
+
+    function defile(){
+
+        setT(id_tem + 1);
+        Setid(id_tem + 1);
+    
+        if(id_tem === 5){
+            Setid(1);
+        }
+    
+    }
+
+    
+
+
+    
   
 
 return(
@@ -115,12 +136,15 @@ return(
 
 
     <div class="Temoignages block">
+        <h2>Témoignages</h2>
 
         <Slider class="move"/>
 
         <div class="temoignages_info">
         <div class="nom_client">
-<h1>{name}</h1>
+            <div class="nom_client_viewport">
+<h3><div>Anna</div><div>Brigitte</div><div>Chloé</div><div>Alice</div><div>Joevanny (1er rdv)</div></h3>
+</div>
             <div class="underline"></div>
         </div>
         
@@ -128,12 +152,7 @@ return(
 
         </div>
 
-        <div class="tem_box">
-
-<a  onClick={(e) => button_manager(0,id_tem).then(()=> setT(id_tem - 1))}>←</a>
-<a  onClick={(e) => button_manager(1,id_tem).then(()=> setT(id_tem + 1))}>→</a>
-
-</div> 
+        
 
         
 
@@ -148,4 +167,12 @@ return(
 
 
 
+
+
 }
+/*<div class="tem_box">
+
+<a  onClick={(e) => button_manager(0,id_tem).then(()=> setT(id_tem - 1))}>←</a>
+<a  onClick={(e) => button_manager(1,id_tem).then(()=> setT(id_tem + 1))}>→</a>
+
+</div> */

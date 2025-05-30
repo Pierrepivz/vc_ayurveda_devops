@@ -1,202 +1,212 @@
 .Slider{
-    overflow: hidden;
-    width: 70vw;
-  margin: 30px auto;
-  position: relative;
-  padding: 4%;
-  scroll-behavior: smooth;
+  overflow: hidden;
+  width: 70vw;
+margin: 30px auto;
+position: relative;
+padding: 4%;
+scroll-behavior: smooth;
 }
 .slider-viewport{
-    width: 70vw;
-  height: 200px;
-  overflow: hidden;
+  width: 70vw;
+height: 200px;
+overflow: hidden;
 }
 .slider-content {
-    display: grid;
-    grid-auto-flow: column;
-    -webkit-transition: 2s all;
-    transition: 2s all;
-    scroll-behavior: smooth;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-transition: 2s all;
+  transition: 2s all;
+  scroll-behavior: smooth;
+  animation: slide 50s ease infinite 4s;
+  
 
-    
-  }
+  
+}
+.slider-content:hover{
+  animation-play-state: paused;
+}
+
 
 
 .slider-content .text {
-    width: 70vw;
-    height: 200px;
-    scroll-behavior: smooth;
-    opacity:1;
-    transition: 1s;
-  }
-.text-transition{
-  opacity: 0;
+  width: 70vw;
+  height: 200px;
+  scroll-behavior: smooth;
+  opacity:1;
   transition: 1s;
+}
+.text-transition{
+opacity: 0;
+transition: 1s;
 }
 
 .tem_box{
-    position: absolute;
-    margin-left: 50vw;
-    margin-top: 20vw;
-    display: flex;
-    flex-flow: row;
-   
-    
-    
+  position: absolute;
+  margin-left: 50vw;
+  margin-top: 20vw;
+  display: flex;
+  flex-flow: row;
+ 
+  
+  
 }
 
 
 
 .tem_box a{
-    
-    margin-left: 15px;
-    align-self: center;
-    text-align: center;
-    color: #383838;
-    border-radius: 100%;
-    border-width: 0px;
-    background-color: rgb(255, 250, 236);
-    border-style: solid;
-    border-color: #383838;
-    border-width: 2px;
-    padding: 15px;
-    padding-left: 14px;
-    padding-right: 14px;
-    transition: display 2s;
-    font-family: "Hoefler";
-    font-size: 16px;
-    transition: 2s;
-    
-
-}
-.tem_box a:hover{
-    
   
-  
-  color: rgb(255, 250, 236);
-  
-  background-color: #383838;
-  
+  margin-left: 15px;
+  align-self: center;
+  text-align: center;
+  color: #383838;
+  border-radius: 100%;
+  border-width: 0px;
+  background-color: rgb(255, 250, 236);
+  border-style: solid;
+  border-color: #383838;
+  border-width: 2px;
+  padding: 15px;
+  padding-left: 14px;
+  padding-right: 14px;
+  transition: display 2s;
+  font-family: "Hoefler";
+  font-size: 16px;
   transition: 2s;
   
 
 }
+.tem_box a:hover{
+  
+
+
+color: rgb(255, 250, 236);
+
+background-color: #383838;
+
+transition: 2s;
+
+
+}
+
 
 
 .t_1{
 
-    -webkit-transform: translateX(0vw);
-          transform: translateX(0vw);
-          
-          
+  -webkit-transform: translateX(0vw);
+        transform: translateX(0vw);
+        
+        
 
 }
 .t_2{
 
-  -webkit-transform: translateX(-70vw);
-        transform: translateX(-70vw);
-        
-        
+-webkit-transform: translateX(-70vw);
+      transform: translateX(-70vw);
+      
+      
 
 }
 .t_3{
 
-    -webkit-transform: translateX(-140vw);
-          transform: translateX(-140vw);
-          
-          
+  -webkit-transform: translateX(-140vw);
+        transform: translateX(-140vw);
+        
+        
 
 }
 .t_4{
 
-  -webkit-transform: translateX(-210vw);
-        transform: translateX(-210vw);
-        
-        
+-webkit-transform: translateX(-210vw);
+      transform: translateX(-210vw);
+      
+      
 
 }
 .t_5{
 
-  -webkit-transform: translateX(-280vw);
-        transform: translateX(-280vw);
-        
-        
+-webkit-transform: translateX(-280vw);
+      transform: translateX(-280vw);
+      
+      
 
 }
+
+
+
 
 @media screen and (max-width:640px) and (min-width:200px){
 
-  .tem_box{
-    position: absolute;
-    margin-left: 20vw;
-    margin-top: 30vw;
-    display: flex;
-    flex-flow: row;
-   
-    
-    
+.tem_box{
+  position: absolute;
+  margin-left: 20vw;
+  margin-top: 30vw;
+  display: flex;
+  flex-flow: row;
+ 
+  
+  
 }
 
 .tem_box a{
-    
   
-  
-  border-radius: 100%;
-  
- 
-  
-  padding: 10px;
-  font-size: 11px;
-  text-align: center;
-  
+
+
+border-radius: 100%;
+
+
+
+padding: 10px;
+font-size: 11px;
+text-align: center;
+
 
 }
 
 .slider-content .text {
-  font-size: 11px;
-  letter-spacing: 0.8px;
-  line-height: 15px;
+font-size: 11px;
+letter-spacing: 0.8px;
+line-height: 15px;
 }
-    
-    
+  
+  
 }
 
 /*
 #tem_1:target .slider-content{
 
-    -webkit-transform: translateX(0vw);
-          transform: translateX(0vw);
-          
-          scroll-behavior: smooth;
+  -webkit-transform: translateX(0vw);
+        transform: translateX(0vw);
+        
+        scroll-behavior: smooth;
 
 }
 
 #tem_2:target .slider-content{
 
-    -webkit-transform: translateX(-70vw);
-          transform: translateX(-70vw);
+  -webkit-transform: translateX(-70vw);
+        transform: translateX(-70vw);
 
 
 }
 #tem_3:target .slider-content{
 
-    -webkit-transform: translateX(-140vw);
-          transform: translateX(-140vw);
+  -webkit-transform: translateX(-140vw);
+        transform: translateX(-140vw);
 
 
 }
 
 #tem_4:target .slider-content{
 
-    -webkit-transform: translateX(-210vw);
-          transform: translateX(-210vw);
+  -webkit-transform: translateX(-210vw);
+        transform: translateX(-210vw);
 
 
 }
 #tem_5:target .slider-content{
 
-    -webkit-transform: translateX(-280vw);
-          transform: translateX(-280vw);
+  -webkit-transform: translateX(-280vw);
+        transform: translateX(-280vw);
 
 
 }*/

@@ -11,6 +11,12 @@
     margin-bottom: 1vw;
 
 }
+#icon_bilan,#icon_marma{
+    width:70%;
+    height:70%;
+    
+}
+
 
 .Offre underline{
     width: 70%;
@@ -24,15 +30,14 @@
     margin-top: 2%;
 
 }
-.detail_offre h1{
+.detail_offre h3{
     font-size: 27px;
-    color: rgba(255, 255, 255, 0.808);
+    color: rgba(255, 255, 255, 0.966);
 
 }
-.detail_offre underline{
-    width: 70%;
-    height: 2px;
-}
+
+
+
 .detail_offre *{
     margin-bottom: 1vw;
 
@@ -45,8 +50,12 @@
 
 }
 .cercle_logo{
-    width: 7.5vw;
-    height: 7.5vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 8.5vw;
+    height: 8.5vw;
     border-style: solid;
     border-width: 2px;
     border-color: black;

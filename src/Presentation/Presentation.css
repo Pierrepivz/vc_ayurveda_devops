@@ -3,7 +3,7 @@
 
 .presentation{
     box-sizing: border-box;
-    background: url("../images/background_retraite.jpeg");
+    background: url("../images/paysage_group1.png");
     background-position-Y: -50px;
     background-size: cover;
     display: flex;
@@ -24,6 +24,7 @@
     
 
 }
+
 
 
 

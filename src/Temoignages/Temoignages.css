@@ -1,5 +1,5 @@
 .Temoignages{
-    background: url("../images/fond_or.png");
+    background: #FFFDF2;
     background-size: cover;
     height: 60vh;
     display: flex;
@@ -9,6 +9,10 @@
     padding-left: 15%;
     padding-right: 15%;
 
+}
+.Temoignages h2{
+  width:100%;
+  text-align:start;
 }
 .temoignages_text{
     
@@ -21,11 +25,9 @@
     overflow: hidden;
     
 }
-.temoignages_text text{
-    display: flex;
-    flex-direction: row;
-    width: 70vw;
-    background: black;
+
+.Temoignages text {
+    font-size:19px;
 }
 .temoignages_info{
 
@@ -41,18 +43,142 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top:-15vh;
 }
+.nom_client_viewport{
+    width:70vw;
+    overflow: hidden;
+    
+
+}
+.nom_client_viewport h3{
+
+    display:grid;
+    grid-auto-flow: column;
+    font-size:20px;
+    animation: slide 50s ease infinite 4s;
+    
+    
+}
+.nom_client_viewport h3 div{
+    width:70vw;
+    color:black;
+    text-align:start;
+    
+}
+
+.Temoignages:has(.slider-content:hover) * {
+    animation-play-state: paused;
+}
+@keyframes slide {
+    0% {
+      
+      transform: translateX(0vw);
+      opacity: 1;
+      
+      
+    }
+    15% {
+  
+  
+      transform: translateX(0vw);
+      opacity:1;
+  
+    }
+
+    19%{
+      opacity: 0;
+    }
+  
+  
+    20% {
+      
+      transform: translateX(-70vw);
+      opacity: 1;
+      
+    }
+
+    
+  
+    35% {
+  
+      transform: translateX(-70vw);
+      opacity:1;
+  
+    }
+
+    39%{
+      opacity: 0;
+    }
+    
+    40% {
+  
+      transform: translateX(-140vw);
+      opacity: 1;
+  
+    }
+  
+    55%{
+  
+      transform: translate(-140vw);
+      opacity:1;
+    }
+    59%{
+      opacity: 0;
+    }
+    
+    60%{
+  
+      transform: translateX(-210vw);
+      opacity: 1;
+  
+    }
+    75%{
+  
+      transform: translateX(-210vw);
+      opacity:1;
+    }
+    79%{
+      opacity:0
+    }
+    
+    80%{
+  
+      transform: translateX(-280vw);
+      opacity: 1;
+  
+    }
+    95%{
+  
+  
+      transform: translateX(-280vw);
+      opacity:1;
+  
+    }
+    99%{
+      opacity:0;
+    }
+    
+    100%{
+  
+      transform: translateX(0vw);
+      opacity: 1;
+  
+    }
+  
+    
+  }
+
+
 .Temoignages .underline{
     height: 2px;
-    background: white;
+    background: black;
     width: 30vw;
     margin-top: -1vh;
 
 }
-.Temoignages h1{
-    color: white;
-    font-size: 20px;
-}
+
+
 
 
 
