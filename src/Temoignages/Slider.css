@@ -19,21 +19,26 @@ overflow: hidden;
   scroll-behavior: smooth;
   animation: slide 50s ease infinite 4s;
   
+  
 
   
 }
 .slider-content:hover{
   animation-play-state: paused;
+  background:rgb(255, 255, 255);
+  
 }
 
 
 
 .slider-content .text {
-  width: 70vw;
+  width: 68vw;
   height: 200px;
   scroll-behavior: smooth;
   opacity:1;
   transition: 1s;
+  padding:1vw;
+  font-size:17px;
 }
 .text-transition{
 opacity: 0;
@@ -163,9 +168,10 @@ text-align: center;
 }
 
 .slider-content .text {
-font-size: 11px;
+font-size: 12px;
 letter-spacing: 0.8px;
-line-height: 15px;
+line-height: 16px;
+
 }
   
   

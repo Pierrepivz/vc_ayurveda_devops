@@ -19,7 +19,8 @@
 }
 #parcours_text{
     margin-top: -4vh;
-    width: 39vw;
+    margin-left:60px;
+    width: 60vw;
     height:70vh;
     overflow: hidden;
     
@@ -30,6 +31,7 @@
     
    
 }
+/*
 #parcours_text:hover{
     
     width:100vw;
@@ -41,7 +43,7 @@
     opacity:0;
     width:60vw;
     transition:2s;
-}
+}*/
 @keyframes fadein{
     0%{
         opacity:1
@@ -152,6 +154,7 @@
     #parcours_text{
         width: 100%;
         margin-top: 4vw;
+        margin-left:0px;
         
         
     }

@@ -71,7 +71,7 @@ réputé mondialement, pour apprendre sous son aile pendant 2 années complètes
 d’études intenses et poussées.
 
 
-<div class="read_more"> <h2>+</h2></div>
+
 
 </text>
 </div>

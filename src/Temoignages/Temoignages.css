@@ -171,11 +171,25 @@
 
 
 .Temoignages .underline{
-    height: 2px;
+    height: 1.5px;
     background: black;
     width: 30vw;
     margin-top: -1vh;
 
+}
+
+@media screen and (min-width:920px){
+  .Temoignages .underline{
+    
+    width: 20vw;
+    transition: 2s;
+    
+
+}
+.Temoignages:has(.slider-content:hover) .underline {
+  width:30vw;
+  transition: 2s;
+}
 }
 
 
@@ -187,5 +201,13 @@
     .Temoignages h1{
         font-size: 16px;
     }
+    .nom_client_viewport h3{
+
+      
+      font-size:17px;
+      
+      
+      
+  }
 }
   

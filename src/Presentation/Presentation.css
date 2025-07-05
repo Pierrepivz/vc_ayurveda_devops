@@ -21,8 +21,30 @@
     flex-direction: column;
     color: white;
     align-items: center;
+    background:radial-gradient( rgba(0, 0, 0, 0.349) 10%,   rgba(255, 255, 255, 0));
+    padding:1vw;
     
 
+}
+.presentation_text p:first-child{
+    font-family: "Libre Baskerville";
+    letter-spacing: 4px;
+    line-height: 1.2;
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: white;
+
+}
+
+.presentation_text p{
+    letter-spacing: 4px;
+    
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: white;
+    
 }
 
 
@@ -37,8 +59,7 @@ underline_text{
 .logo{
     
     background: url("../images/victor_clement.svg");
-    /*height: 390px;
-    width: 390px;*/
+    
     background-size: cover;
     margin-top: -50px;
     height: 280px;
@@ -91,6 +112,18 @@ a{
     text-decoration: none;
 }
 @media screen and (max-width:640px) and (min-width:200px){
+    .presentation{
+       
+        background-position-Y: 0px;
+        /*background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10%;
+        justify-content: space-around;*/
+    
+        
+    }
 
     #button_retraite{
         width: 170px;
@@ -114,9 +147,20 @@ a{
         background-size: contain;
     }
     .presentation_text{
-        margin-top: -50vh;
+        margin-top: -30vh;
         text-align: center;
         
+        
+    }
+    .presentation_text p:first-child{
+        font-size:18px;
+        
+
+    }
+    .presentation_text p{
+        font-size:13px;
+        
+
     }
 
     

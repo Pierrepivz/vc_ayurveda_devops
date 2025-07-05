@@ -6,13 +6,19 @@ return(
 
 <div class="presentation block">
 
+<div class="logo"></div>
+
 <div class="presentation_text">
-           <p>Médecine Traditionnelle Ayurvédique</p>
+           <p>Médecine Traditionnelle Indienne</p>
+           
+           
              <underline_text></underline_text>
-               <p>Paris</p>
+             <br/>
+             <p>Consultations et Thérapies</p>
+               <p><strong>Paris</strong></p>
     </div>
 
-    <div class="logo"></div>
+    
  
 
     

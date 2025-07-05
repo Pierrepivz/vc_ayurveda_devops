@@ -1,6 +1,6 @@
 import "./Offre.css";
 import icon_bilan from "../images/icon_bilan.svg";
-import icon_marma from "../images/icon_marma.svg";
+import icon_marma from "../images/icon_marma_body.svg";
 export default function Presentation(){
 
       
@@ -29,7 +29,7 @@ bien-être physique et mental</text2>
       <underline></underline>
       <text2>pour réactiver la circulation énergétique de
 votre corps et lui rendre toute sa vitalité</text2>
-<text2>Au choix :</text2><text2>- Marma Détox - Marma Anti-stress - Marma sur mesure</text2>
+
       </div> 
 
       

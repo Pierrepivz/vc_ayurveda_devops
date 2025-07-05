@@ -41,5 +41,8 @@ underline{
         padding-right: 3vw;
         background: rgba(255, 255, 255, 0.418);
     }
+    .nav-bar p{
+        color:black;
+    }
 }
 
