@@ -4,7 +4,8 @@
 .presentation{
     box-sizing: border-box;
     background: url("../images/paysage_group1.png");
-    background-position-Y: -50px;
+    
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -111,7 +112,7 @@ underline_text{
 a{
     text-decoration: none;
 }
-@media screen and (max-width:640px) and (min-width:200px){
+@media screen and (max-width:1200px){
     .presentation{
        
         background-position-Y: 0px;

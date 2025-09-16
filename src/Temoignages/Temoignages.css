@@ -14,17 +14,6 @@
   width:100%;
   text-align:start;
 }
-.temoignages_text{
-    
-    display: flex;
-    flex-direction: row;
-    background: blue;
-    box-sizing: content-box;
-    width: 70vw;
-    height: 10vh;
-    overflow: hidden;
-    
-}
 
 .Temoignages text {
     font-size:19px;
@@ -197,7 +186,7 @@
 
 
 
-@media screen and (max-width:640px) and (min-width:200px){
+@media screen and (max-width:1200px) {
     .Temoignages h1{
         font-size: 16px;
     }
@@ -209,5 +198,13 @@
       
       
   }
+  .Temoignages{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+
+}
+  
 }
   

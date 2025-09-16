@@ -34,14 +34,17 @@ export default function Parcours(){
 
 return(
 
-<div class="Parcours">
+<div class="Parcours" id="parcours">
+
     <div id="parcours_photo">
         <div class="underline"></div>
         <div class="photo_vca"></div>
 
     </div>
     <div id="parcours_text">
+        
         <h1>Mon Parcours</h1>
+
         <text>Les philosophies et sciences orientales m’ont toujours attirées. J’ai commencé
 par le Bouddhisme et la méditation, en passant des années à approfondir ma
 pratique méditative, passant plusieurs

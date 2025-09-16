@@ -4,7 +4,7 @@ export default function Presentation(){
 
 return(
 
-<div class="presentation block">
+<div class="presentation block" >
 
 <div class="logo"></div>
 

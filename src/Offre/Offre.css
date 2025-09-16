@@ -69,9 +69,9 @@
 
 @media screen and (max-width:640px) and (min-width:200px){
 
-.detail_offre h1{
-    font-size: 17px;
-}
+    .Offre h2{
+        font-size:20px;
+        }
 
 
 .cercle_logo{
@@ -99,3 +99,46 @@
 }
 
 }
+
+
+@media screen and (max-width:1200px) and (min-width:640px){
+
+    .Offre h2{
+    font-size:18px;
+    }
+    
+    
+    .cercle_logo{
+        width: 12vw;
+        height: 12vw;
+    }
+    
+    .detail_offre text{
+        font-size: 12px;
+        width: 85%;
+    }
+
+    .Offre :first-child{
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    
+    }
+    
+    
+    .detail_offre underline{
+        margin-bottom: 2vw;
+    }
+    
+    .Offre{
+        padding-top: 2vh;
+        justify-content: space-around;
+    }
+    .detail_offre h3{
+        font-size:18px;
+        
+    }
+    .detail_offre{
+        margin-bottom:0vw;
+    }
+    
+    }
