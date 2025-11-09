@@ -1,7 +1,7 @@
 .Offre{
     padding-top: 1vw;
-    background: url("../images/fond_or.png");
-    background-size: cover;
+    background: url("../images/Couleur_or.png");
+    background-size: contain;
     display: flex;
     flex-direction: column;
     align-items: center;
