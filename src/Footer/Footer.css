@@ -30,6 +30,9 @@
     letter-spacing: 2.4px;
     transition: 2s;
 }
+a{
+    color:inherit;
+}
 .button_rdv:hover {
     background: white;
     color: black;
@@ -103,6 +106,7 @@
         height: 5vw;
 
     }
+   
     
     
   }
